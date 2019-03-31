@@ -1,0 +1,38 @@
+.Footer-wrapper {
+  background-color: black;
+  color: white;
+  font-family: QuickSand;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.Footer {
+  padding: 2%;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.9vw;
+  font-family: Roboto;
+}
+
+a + a {
+  margin-left: 2%;
+}
+
+.icons {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  color: white;
+}
+
+.icon:hover {
+  color: #67dafae7;
+}
