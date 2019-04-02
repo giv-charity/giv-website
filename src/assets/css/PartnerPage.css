@@ -1,0 +1,23 @@
+.Partner-wrapper {
+  background-color: black;
+  color: white;
+  font-family: QuickSand;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.Partner-wrapper header {
+  padding: 2%;
+}
+
+.images {
+  height: auto;
+  width: 100%;
+  padding: 1%;
+}
+
+.Partner-wrapper img {
+  height: auto;
+  width: 40%;
+}
