@@ -4,8 +4,8 @@ import { FaGithub, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer = props => {
   return (
-    <div className="Footer-wrapper">
-      <footer className="Footer">
+    <div className="footer-wrapper">
+      <footer className="footer">
         contact us
         <div className="icons">
           <a
