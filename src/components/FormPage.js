@@ -3,7 +3,7 @@ import "../assets/css/Form.css";
 
 const Form = props => {
   return (
-    <div className="Form-wrapper">
+    <div className="form-wrapper">
       Signup for product updates:
       <br />
       <input type="email" />

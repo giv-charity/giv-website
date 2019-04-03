@@ -1,4 +1,4 @@
-.Partner-wrapper {
+.partner-wrapper {
   background-color: black;
   color: white;
   font-family: QuickSand;
@@ -7,7 +7,7 @@
   font-size: 3vw;
 }
 
-.Partner-wrapper header {
+.partner-wrapper header {
   padding: 2%;
 }
 
@@ -17,7 +17,7 @@
   padding: 1%;
 }
 
-.Partner-wrapper img {
+.partner-wrapper img {
   height: auto;
   width: 40%;
 }
