@@ -1,0 +1,47 @@
+.landing-page {
+  background: linear-gradient(
+      to bottom right,
+      rgba(177, 252, 190, 0.6),
+      rgba(82, 208, 255, 0.6),
+      rgba(255, 162, 156, 0.6)
+    ),
+    url("https://images.jacobinmag.com/2014/11/17001408/12459375745_765fe7e151_k-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 100vh;
+}
+
+.app-flex-title {
+  font-weight: 900;
+}
+
+.giv-title {
+  font-size: 7em;
+  color: #fff;
+  text-align: center;
+}
+
+.giv-slogan {
+  margin: 0 0 200px 0;
+  font-size: 3rem;
+}
+
+.nav-button {
+  position: absolute;
+  bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .landing-page {
+    background-position: center center;
+  }
+
+  .giv-slogan {
+    display: none;
+  }
+}
