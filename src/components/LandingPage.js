@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/LandingPage.css";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const LandingPage = props => {
   return (
@@ -8,7 +9,9 @@ const LandingPage = props => {
         <h2 className="giv-title">giv</h2>
         <h2 className="giv-slogan">charitable giving, reimagined</h2>
       </div>
-      <div className="nav-button">Placeholder for nav button</div>
+      <a href="#why" className="nav-arrow">
+        <MdKeyboardArrowDown size="5rem" />
+      </a>
     </div>
   );
 };
