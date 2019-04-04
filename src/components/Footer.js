@@ -14,7 +14,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size="1rem" />
+            <FaLinkedin size="2rem" />
           </a>
           <a
             href="https://twitter.com/"
@@ -22,7 +22,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter size="1rem" />
+            <FaTwitter size="2rem" />
           </a>
           <a
             href="https://www.facebook.com/"
@@ -30,7 +30,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook size="1rem" />
+            <FaFacebook size="2rem" />
           </a>
           <a
             href="https://www.instagram.com/"
@@ -38,7 +38,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram size="1rem" />
+            <FaInstagram size="2rem" />
           </a>
         </div>
         <p className="copyright">Giv &copy; {new Date().getFullYear()}</p>
