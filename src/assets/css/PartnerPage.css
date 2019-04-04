@@ -1,7 +1,6 @@
 .partner-wrapper {
-  background-color: black;
-  color: white;
-  font-family: QuickSand;
+  background-color: #fff;
+  color: #000000;
   font-weight: bolder;
   text-align: center;
   font-size: 3vw;
@@ -20,4 +19,7 @@
 .partner-wrapper img {
   height: auto;
   width: 40%;
+}
+
+#non-profit-img {
 }

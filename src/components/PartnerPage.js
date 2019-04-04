@@ -7,8 +7,8 @@ const PartnerPage = props => {
     <div className="partner-wrapper">
       <header>giv is looking for two kinds of partnerships</header>
       <div className="images">
-        <img src={homeless} alt="" />
-        <img src={homeless} alt="" />
+        <img id="non-profit-img" src={homeless} alt="" />
+        <img id="corporation-img" src={homeless} alt="" />
       </div>
     </div>
   );
