@@ -16,6 +16,29 @@
   height: 100vh;
 }
 
+.nav-arrow {
+  color: rgb(177, 252, 190);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  bottom: 10px;
+  position: absolute;
+}
+.nav-arrow:hover {
+  color: rgb(116, 194, 129);
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .app-flex-title {
   font-weight: 900;
 }
@@ -29,11 +52,6 @@
 .giv-slogan {
   margin: 0 0 200px 0;
   font-size: 3rem;
-}
-
-.nav-button {
-  position: absolute;
-  bottom: 10px;
 }
 
 @media screen and (max-width: 375px) {

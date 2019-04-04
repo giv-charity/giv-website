@@ -6,7 +6,7 @@ import impact from "../assets/images/impact.png";
 
 const WhyPage = props => {
   return (
-    <div className="why-page">
+    <div id="why" className="why-page">
       <div className="why-content">
         <h2 className="why-title">why</h2>
         <div className="why-cards">

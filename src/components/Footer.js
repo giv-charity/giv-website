@@ -1,20 +1,20 @@
 import React from "react";
 import "../assets/css/Footer.css";
-import { FaGithub, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const Footer = props => {
   return (
     <div className="footer-wrapper">
       <footer className="footer">
-        contact us
+        <h2>contact us</h2>
         <div className="icons">
           <a
-            href="https://github.com/"
+            href="https://linkedin.com/"
             className="icon"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size="2vw" />
+            <FaLinkedin size="1rem" />
           </a>
           <a
             href="https://twitter.com/"
@@ -22,7 +22,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter size="2vw" />
+            <FaTwitter size="1rem" />
           </a>
           <a
             href="https://www.facebook.com/"
@@ -30,7 +30,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook size="2vw" />
+            <FaFacebook size="1rem" />
           </a>
           <a
             href="https://www.instagram.com/"
@@ -38,7 +38,7 @@ const Footer = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram size="2vw" />
+            <FaInstagram size="1rem" />
           </a>
         </div>
         <p className="copyright">Giv &copy; {new Date().getFullYear()}</p>
