@@ -37,6 +37,9 @@
   width: 30%;
   background: #000000;
   color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .signup-button:hover {
@@ -44,7 +47,7 @@
   background: #ffa29c;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   .form-inputs {
     width: 80%;
   }
