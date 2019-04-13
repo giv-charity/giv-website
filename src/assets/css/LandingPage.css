@@ -54,7 +54,8 @@
   font-size: 3rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  /*768px is the difference between phone and tablet generally*/
   .landing-page {
     background-position: center center;
   }

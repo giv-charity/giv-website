@@ -72,9 +72,3 @@
     margin: 5px;
   }
 }
-
-@media (orientation: landscape) {
-  .why-card {
-    height: 400px;
-  }
-}
