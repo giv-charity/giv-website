@@ -49,10 +49,11 @@
 
 .card-description {
   align-self: center;
-  overflow: hidden;
+  overflow: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  /*768px is the difference between phone and tablet generally*/
   .why-cards {
     flex-direction: column;
   }
@@ -60,5 +61,20 @@
   .why-card {
     margin: 10px 0;
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*768px is the difference between phone and tablet generally*/
+  .why-card {
+    height: 400px;
+    width: 27%;
+    margin: 5px;
+  }
+}
+
+@media (orientation: landscape) {
+  .why-card {
+    height: 400px;
   }
 }

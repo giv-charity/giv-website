@@ -35,3 +35,18 @@ a + a {
 .icon:hover {
   color: #67dafae7;
 }
+
+.icon-size {
+  size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  /*768px is the difference between phone and tablet generally*/
+  .footer-wrapper {
+    font-size: 1.3rem;
+  }
+
+  .icon-size {
+    size: 1.5rem;
+  }
+}

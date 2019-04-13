@@ -47,8 +47,22 @@
   background: #ffa29c;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  /*768px is the difference between phone and tablet generally*/
   .form-inputs {
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*768px is the difference between phone and tablet generally*/
+  .form-inputs {
+    width: 90%;
+  }
+}
+
+@media (orientation: landscape) {
+  .form-inputs {
+    width: 90%;
   }
 }
