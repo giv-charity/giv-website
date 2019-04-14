@@ -1,14 +1,29 @@
 import React from "react";
 import "../assets/css/Form.css";
 import axios from "axios";
+import swal from "sweetalert";
+
+const error = () => swal("Error", "Enter an email first!", "error");
+
+const success = () =>
+  swal(
+    "Registered!",
+    "Thank you for joining! You will recieve an email soon",
+    "success"
+  );
 
 const handleSubmit = () => {
   const email = document.getElementById("email").value;
-  if (email === "") alert("Enter an email!");
+  if (email === "") {
+    error();
+    return;
+  }
 
   axios.post("https://giv-startup.appspot.com/api/addEmail", {
     email
   });
+
+  success();
 };
 
 const Form = props => {
