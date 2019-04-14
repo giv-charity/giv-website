@@ -47,6 +47,13 @@
   background: #ffa29c;
 }
 
+.signup-button:active {
+  background: #000000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 @media screen and (max-width: 767px) {
   /*768px is the difference between phone and tablet generally*/
   .form-inputs {

@@ -1,5 +1,15 @@
 import React from "react";
 import "../assets/css/Form.css";
+import axios from "axios";
+
+const handleSubmit = () => {
+  const email = document.getElementById("email").value;
+  if (email === "") alert("Enter an email!");
+
+  axios.post("https://giv-startup.appspot.com/api/addEmail", {
+    email
+  });
+};
 
 const Form = props => {
   return (
@@ -9,11 +19,13 @@ const Form = props => {
         <input
           className="email-input"
           type="email"
+          id="email"
           placeholder="enter your email address"
         />
         <input
           className="signup-button"
           type="button"
+          onClick={handleSubmit}
           value="get early access"
         />
       </div>
