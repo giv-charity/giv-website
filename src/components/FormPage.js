@@ -12,8 +12,22 @@ const success = () =>
     "success"
   );
 
+const validate_email = id => {
+  if (
+    /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+      id
+    )
+  )
+    return true;
+  return false;
+};
+
 const handleSubmit = () => {
   const email = document.getElementById("email").value;
+  if (!validate_email(email)) {
+    swal("Error", "Enter a valid email!", "error");
+    return;
+  }
   if (email === "") {
     error();
     return;
