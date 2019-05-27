@@ -2,7 +2,7 @@
   "name": "giv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nshah9856.github.io/giv",
+  "homepage": "https://giv-charity.github.io/giv-website/",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
