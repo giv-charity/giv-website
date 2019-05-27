@@ -1,14 +1,14 @@
 {
-  "main.css": "/giv/static/css/main.0f7c70d7.chunk.css",
-  "main.js": "/giv/static/js/main.b79232fc.chunk.js",
-  "main.js.map": "/giv/static/js/main.b79232fc.chunk.js.map",
-  "runtime~main.js": "/giv/static/js/runtime~main.04ef1d7b.js",
-  "runtime~main.js.map": "/giv/static/js/runtime~main.04ef1d7b.js.map",
-  "static/js/2.5d326521.chunk.js": "/giv/static/js/2.5d326521.chunk.js",
-  "static/js/2.5d326521.chunk.js.map": "/giv/static/js/2.5d326521.chunk.js.map",
-  "index.html": "/giv/index.html",
-  "precache-manifest.b2ea486e070b0ca2ce4c73d3bf88c343.js": "/giv/precache-manifest.b2ea486e070b0ca2ce4c73d3bf88c343.js",
-  "service-worker.js": "/giv/service-worker.js",
-  "static/css/main.0f7c70d7.chunk.css.map": "/giv/static/css/main.0f7c70d7.chunk.css.map",
-  "static/media/community.png": "/giv/static/media/community.e6d8efe9.png"
+  "main.css": "/giv-website/static/css/main.0f7c70d7.chunk.css",
+  "main.js": "/giv-website/static/js/main.62e6404f.chunk.js",
+  "main.js.map": "/giv-website/static/js/main.62e6404f.chunk.js.map",
+  "runtime~main.js": "/giv-website/static/js/runtime~main.23728e7b.js",
+  "runtime~main.js.map": "/giv-website/static/js/runtime~main.23728e7b.js.map",
+  "static/js/2.5d326521.chunk.js": "/giv-website/static/js/2.5d326521.chunk.js",
+  "static/js/2.5d326521.chunk.js.map": "/giv-website/static/js/2.5d326521.chunk.js.map",
+  "index.html": "/giv-website/index.html",
+  "precache-manifest.52af431eca15e9aac982158cdf6517dc.js": "/giv-website/precache-manifest.52af431eca15e9aac982158cdf6517dc.js",
+  "service-worker.js": "/giv-website/service-worker.js",
+  "static/css/main.0f7c70d7.chunk.css.map": "/giv-website/static/css/main.0f7c70d7.chunk.css.map",
+  "static/media/community.png": "/giv-website/static/media/community.e6d8efe9.png"
 }
